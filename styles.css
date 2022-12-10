@@ -1,0 +1,164 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: aliceblue;
+
+}
+header{
+    display:flex;
+    gap: 200px;
+}
+#abc{
+    display:flex;
+    list-style:none;
+    gap:10px;
+    color:black;
+}
+#abc li:hover{
+    color: blue;
+}
+#abc h3{
+    margin-top:10px;
+}
+
+#bcd{
+    display:flex;
+    list-style:none;
+    gap:10px;
+   
+}
+#abc li:hover{
+    color: blue;
+}
+#bcd h3{
+    margin-top:10px;
+}
+#pent{
+    display: flex;
+    gap:400px;
+}
+#hex{
+    display: flex;
+    gap:5px;
+}
+
+#xy{
+    background-color:white ;
+    color:blue;
+    height:30px;
+    width: 90px;
+    font-size:10px ;
+
+
+}
+ #tet{
+    display: flex;
+    gap:5px;
+ }
+#tet ul{
+    
+        display: flex;
+}
+#tet p{
+    margin-top: 6px;
+    
+}
+#tet button{
+    background-color: blue;
+    cursor:pointer;
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+    color:white;
+    
+}
+.card{
+    background-color: rgb(230, 230, 230);
+    height: 350px;
+    width: 300px;
+    margin:5rem;
+    gap:2.5rem;
+
+}
+.card:hover{
+    box-shadow: 2px 2px 2px black;
+    height: 351px;
+    width: 302px;
+    transition: 1s;
+}
+
+#inner button{
+    background-color:#e6f0ff;
+    color:#4d94ff;
+    font-style: bold;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+}
+
+#low button{
+    margin: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    margin-left: 2rem;
+    
+}
+
+#bd{
+    background-color:#4d94ff;
+    color: white;
+}
+
+#da{
+    color: #e6e6e6;
+    background-color:rgb(191, 191, 191) ;
+    text-shadow: 1px 1px 1px black;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:1rem;
+    /* gap:-2rem; */
+    margin-top: 1.7rem;
+    width: 300px;
+    margin:5rem;
+    gap:2rem;
+}
+
+.num{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 3px;
+}
+.job_alert{
+    background-color: rgb(157, 217, 240);
+    padding: 16px;
+}
+.search_but{
+    background-color:#4d94ff ;
+    border-radius: 3px;
+    padding: 5px;
+}
+.sect2_main{
+    flex-grow: 1;
+    padding-top: 30px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top:-1rem ;
+}
+#cards a{
+    text-decoration: none;
+    color: black;
+
+}
+#card02,#card03,#card04{
+    margin-top: -18rem;
+}
+
+#card05,#card06,#card07{
+    margin-top: -18rem;
+
+}
